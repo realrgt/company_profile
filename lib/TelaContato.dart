@@ -11,7 +11,7 @@ class _TelaContatoState extends State<TelaContato> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Clientes"),
+        title: Text("Contato"),
         backgroundColor: Colors.green,
       ),
       body: Container(
@@ -24,19 +24,28 @@ class _TelaContatoState extends State<TelaContato> {
                 padding: EdgeInsets.only(bottom: 15),
                 child: Row(
                   children: <Widget>[
-                    Image.asset("images/detalhe_cliente.png"),
-                    Text("Nossos Serviços")
+                    Image.asset("images/detalhe_contato.png"),
+                    Padding(
+                      padding: EdgeInsets.only(left: 20),
+                      child: Text(
+                        "Contato",
+                        style: TextStyle(
+                          fontWeight: FontWeight.w500,
+                          color: Colors.greenAccent
+                        ),
+                      ),
+                    )
                   ],
                 ),
               ),
               Text(
-                  "Consultoria",
+                  "Email: consultoria@atm.com",
                   textAlign: TextAlign.justify
               ),Text(
-                  "Preços",
+                  "Telefone: +258 2102988",
                   textAlign: TextAlign.justify
               ),Text(
-                  "Acompanhamento de Projetos",
+                  "Celular: +258 847522988",
                   textAlign: TextAlign.justify
               ),
             ],
