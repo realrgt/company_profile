@@ -50,6 +50,7 @@ flutter:
     - images/detalhe_cliente.png
     - images/detalhe_contato.png
     - images/detalhe_empresa.png
+    - images/detalhe_servico.png
     - images/logo.png
     - images/menu_cliente.png
     - images/menu_contato.png
